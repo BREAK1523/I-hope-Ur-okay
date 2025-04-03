@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100vw;
+    align-content: center;
+}
+
+.letter {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    text-align: start;
+    padding: 30px;
+    background-color: #D7E2E8;
+}
+
+#endnote {
+    font-family: "Meow Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+      
+}

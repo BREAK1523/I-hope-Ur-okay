@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container {
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 100vw;
+    align-content: center ;
+}
+
+#message {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    padding: 20px;
+    margin: 20px;
+    height: 400px;
+    width: 700px;
+    resize: none;
+}
+
+.button {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
+.button:hover {
+    background-color: #f0f0f0;
+}

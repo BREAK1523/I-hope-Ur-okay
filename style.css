@@ -1,0 +1,80 @@
+html {
+    box-sizing: border-box;
+}
+
+/*preloading all common style*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+/*To center all Content*/
+.container {
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    visibility: hidden;
+    width: 100vw;
+}
+
+.container > div {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 20vh;
+}
+
+/*Style First Slide*/
+.one {
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+
+/*style second slide*/
+.two {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+/*Style third slide*/
+.three, .four {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+/*Style of all buttons (except Swal)*/
+button {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+}
+
+#yes, #no {
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
+/*Hovering on button color change*/
+#yes:hover {
+    background-color: #c2e7a2;
+    color: white;
+}
+
+#no:hover {
+    background-color: rgb(228, 117, 117);
+    color: white;
+}
+
+/*Clicking on button color change*/
+#yes:active {
+    background-color: lightgreen;
+}
+
+#no:active {
+    background-color: lightcoral;
+}
