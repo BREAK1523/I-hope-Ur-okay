@@ -10,7 +10,7 @@ window.onload = function () {
     .then(function (result) {
         if (result.isConfirmed) {
         } else {
-            window.location.href = "myMessage.html";
+            window.location.href = "messageNo.html";
         }
     });   
 }
